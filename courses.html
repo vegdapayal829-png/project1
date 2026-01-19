@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <titlel>LearnHub | courses</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+        }
+ 
+        header {
+            background: #3498db;
+            padding: 15px 30px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a.active {
+            background: #2980b9;
+            padding: 6px 12px;
+            border-radius: 5px;
+        }
+
+       
+        .title-section {
+            background: #3498db;
+            margin: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .title-section h1 {
+            margin-bottom: 10px;
+        }
+
+       
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            padding: 0 30px 40px;
+        }
+
+        .course-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .course-image {
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .web { background: linear-gradient(to right, #667eea, #764ba2); }
+        .python { background: linear-gradient(to right, #ff758c, #ff7eb3); }
+        .data { background: linear-gradient(to right, #43cea2, #185a9d); }
+        .mobile { background: linear-gradient(to right, #ff9966, #ff5e62); }
+        .uiux { background: linear-gradient(to right, #36d1dc, #5b86e5); }
+        .ai { background: linear-gradient(to right, #89f7fe, #66a6ff); }
+
+        .course-content {
+            padding: 20px;
+        }
+
+        .course-content span {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .course-content h3 {
+            margin: 8px 0;
+        }
+
+        .course-content p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .course-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .price {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .enroll-btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #3498db;
+            color: #fff;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .enroll-btn:hover {
+            background: #2980b9;
+        }
+
+        
+        footer {
+            background: #2c3e50;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h2>📖  LearnHub</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">courses</a>
+        <a href="enrollment.html">enrollment</a>
+        <a href="contact.html">contact</a>
+    </nav>
+</header>
+
+<div class="title-section">0
+
+    
+    <h1>Available Courses</h1>
+    <p>Choose from our wide range of expert-led courses</p>
+</div>
+
+<section class="courses">
+
+    <div class="course-card">
+        <div class="course-image web">💻</div>
+        <div class="course-content">
+            <span>Web Development</span>
+            <h3>Complete Web Development Course</h3>
+            <p>Learn HTML, CSS, JavaScript, and modern web technologies.</p>
+            <div class="course-info">
+                <span>⏱ 8 weeks</span>
+                <span class="price">₹2,999</span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="course-card">
+        <div class="course-image python">🐍</div>
+        <div class="course-content">
+            <span>Programming</span>
+            <h3>Python Programming Masterclass</h3>
+            <p>Master Python programming from basics to advanced concepts.</p>
+            <div class="course-info">
+                <span>⏱ 6 weeks</span>
+                <span class="price">₹2,499</span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="course-card">
+        <div class="course-image data">📊</div>
+        <div class="course-content">
+            <span>Data Science</span>
+            <h3>Data Science Fundamentals</h3>
+            <p>Learn data analysis, visualization, and ML basics.</p>
+            <div class="course-info">
+                <span>⏱ 10 weeks</span>
+                <span class="price">₹3,499</span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="course-card">
+        <div class="course-image mobile">📱</div>
+        <div class="course-content">
+            <span>Mobile Development</span>
+            <h3>Mobile App Development</h3>
+            <p>Build mobile apps for iOS and Android using React Native.</p>
+            <div class="course-info">
+                <span>⏱ 12 weeks</span>
+                <span class="price">₹3,999</span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="course-card">
+        <div class="course-image uiux">🎨</div>
+        <div class="course-content">
+            <span>Design</span>
+            <h3>UI/UX Design Complete Course</h3>
+            <p>Learn user interface and user experience design principles.</p>
+            <div class="course-info">
+                <span>⏱ 8 weeks</span>
+                <span class="price">₹2,799</span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="course-card">
+        <div class="course-image ai">🤖</div>
+        <div class="course-content">
+            <span>AI & ML</span>
+            <h3>Artificial Intelligence Basics</h3>
+            <p>Introduction to AI, machine learning, and neural networks.</p>
+            <div class="course-info">
+                <span>⏱ 10 weeks</span>
+                <span class="price">₹4,499</span>
+            </div>
+            <button class="enroll-btn">Enroll Now</button>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    © 2024 LearnHub. All rights reserved.<br>
+    Email: info@learnhub.com | Phone: +91 1234567890
+</footer>
+
+</body>
+</html>
